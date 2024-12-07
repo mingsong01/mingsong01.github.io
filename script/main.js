@@ -87,6 +87,8 @@ const animationTimeline = () => {
   }
 
   const tl = new TimelineMax()
+  // 设置时间尺度为1.5，加快动画速度
+  tl.timeScale(1.5);
 
   tl
     .to(".container", 0.1, {
