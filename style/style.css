@@ -315,7 +315,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url('../img/play.svg');
-  background-color: #FFC0CB;/*transparent*/
+  background-color: transparent;/*#FFC0CB*/
   border: none;
   cursor: pointer;
   z-index: 100;
@@ -323,11 +323,13 @@ body {
   position: absolute;
   right: 5vw;
   top: 5vh;
+  filter: invert(100%) sepia(100%) hue-rotate(340deg); /* 将图片颜色反转并调整为粉红色 */
 }
 
 .play-pause.playing {
   background-image: url('../img/pause.svg');
   animation: rotate 2s linear infinite;
+  filter: invert(100%) sepia(100%) hue-rotate(340deg); /* 确保播放中的按钮也应用相同的滤镜效果 */
 }
 
 .startSign {
