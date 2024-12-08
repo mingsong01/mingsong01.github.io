@@ -315,7 +315,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url('../img/play.svg');
-  background-color: transparent;
+  background-color: #FFC0CB;/*transparent*/
   border: none;
   cursor: pointer;
   z-index: 100;
