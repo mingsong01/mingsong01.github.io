@@ -125,8 +125,8 @@ body {
 
 .six .hat {
   position: absolute;
-  width: 10px;
-  top: -70px;
+  width: 5px;
+  top: -40px;
   left: 49%;
    /* 等比例扩大图片到2倍 */
   /*transform: scale(1.1); */
