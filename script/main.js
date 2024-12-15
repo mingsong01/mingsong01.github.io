@@ -33,7 +33,7 @@ let audio = null
 
 // 在文档加载时预加载音频
 document.addEventListener("DOMContentLoaded", () => {
-  audio = new Audio("music/happy-birthday-258264.mp3")
+  audio = new Audio("music/bgMusic.mp3")
   audio.preload = "auto"
 })
 
